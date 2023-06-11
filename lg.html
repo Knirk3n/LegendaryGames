@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LegendaryGames</title>
+    <style type="text/css">
+        #logo {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 10px;
+        }
+
+        #icon {
+            position: relative;
+            margin-left: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        #game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .game-link {
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .game-image {
+            border-radius: 30px;
+            border: 3px solid transparent;
+            transition: border-color 0.3s ease-in-out;
+            border-color: black;
+        }
+
+
+        .blueimg {
+            height: 1000px;
+            position: relative;
+        }
+
+        .game-image:hover {
+            border-color: rgb(21, 226, 248);
+
+        }
+
+        body {
+            background-color: #23aae2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .game-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 433px;
+            height: 325px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            border-radius: 20px;
+        }
+
+        .game-link:hover .game-video {
+            opacity: 1;
+        }
+    </style>
+
+
+<link rel="icon" href="Mann.jpeg" type="image/png">
+
+</head>
+<body>
+    <div id="icon">
+        <img src="lgLogo.png" alt="" width="100" height="100">
+    </div>
+
+    <div id="game-container">
+        <a href="carshooter.html" class="game-link">
+            <img class="game-image" src="carshooter.jpg" alt="" width="433" height="325">
+        </a>
+        <a href="landmoversim.html" class="game-link">
+            <img class="game-image" src="landmover.jpg" alt="" width="433" height="325">
+        </a>
+        <a href="snake.html" class="game-link">
+            <img class="game-image" src="snake.png" alt="" width="433" height="325">
+        </a>
+        <a href="flappyninja.html" class="game-link">
+            <img class="game-image" src="flappyninja.jpg" alt="" width="433" height="325">
+        </a>
+        <a href="bananaclicker.html" class="game-link">
+            <img class="game-image" src="bananaclicker.png" alt="" width="433" height="325">
+        </a>
+        <a href="fishsim.html" class="game-link">
+            <img class="game-image" src="fishsim.jpg" alt="" width="433" height="325">
+        </a>
+        <a href="santadodge.html" class="game-link">
+            <img class="game-image" src="fishsim.jpg" alt="" width="433" height="325">
+        </a>
+        
+    </div>
+</body>
+</html>
+
